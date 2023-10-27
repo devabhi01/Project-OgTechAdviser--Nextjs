@@ -5,10 +5,59 @@
 
 .login {
   cursor: pointer;
+  display: flex;
 }
 .createPost {
   cursor: pointer;
+  display: flex;
 }
 .logout {
   cursor: pointer;
+  display: flex;
 }
+
+.burger {
+  width: 24px;
+  height: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: var(--textColor);
+}
+@media screen and (max-width: 640px) {
+  .burger {
+    display: flex;
+  }
+  .login {
+    display: none;
+  }
+  .logout {
+    display: flex;
+  }
+  .createPost {
+    display: flex;
+    
+  }
+}
+
+.responsiveMenu {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  background-color: var(--bg);
+  height: calc(100vh - 100px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-size: 24px;
+}
+

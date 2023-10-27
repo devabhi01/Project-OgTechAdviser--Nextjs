@@ -8,10 +8,12 @@ const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.logo}>OgTechAdviser</div>
       <div className={styles.links}>
-        <Link href="/">Home</Link>
-        <Link href="/">About</Link>
-        <Link href="/">Contact</Link>
+        <Link href="/" className={styles.link}>Home</Link>
+        <Link href="/" className={styles.link}>About</Link>
+        <Link href="/" className={styles.link}>Contact</Link>
+        
         <AuthLink />
+        
         <ThemeToggle />
       </div>
     </div>

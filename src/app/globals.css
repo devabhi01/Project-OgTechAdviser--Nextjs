@@ -1,5 +1,5 @@
 :root {
-  ---bg:#fff;
+  --bg:#fff;
   --textColor:#000;
   --softBg:#f0f0f0;
   --softcolor:#626262;
@@ -22,9 +22,24 @@ a {
   color: inherit;
 }
 
+.dark {
+  --bg:#0f172a;
+  --textColor:#ddd;
+  --softBg:#1f273a;
+  --softcolor:#a6a6a6;
+}
+
+.light {
+  --bg:#fff;
+  --textColor:#000;
+  --softBg:#f0f0f0;
+  --softcolor:#626262;
+}
+
+
 .container {
   min-height: 100vh;
-  background-color: var(---bg);
+  background-color: var(--bg);
   color: var(--textColor);
 }
 
@@ -32,7 +47,6 @@ a {
   max-width: 1536px;
   margin-left: auto;
   margin-right: auto;
-  background-color: aqua;
   padding-left: 80px;
   padding-right: 80px;
 }
