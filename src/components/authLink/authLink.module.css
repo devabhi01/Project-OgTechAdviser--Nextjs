@@ -1,0 +1,14 @@
+.dashboard {
+  display: flex;
+  gap: 20px;
+}
+
+.login {
+  cursor: pointer;
+}
+.createPost {
+  cursor: pointer;
+}
+.logout {
+  cursor: pointer;
+}
