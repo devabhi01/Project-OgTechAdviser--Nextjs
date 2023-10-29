@@ -16,7 +16,7 @@
 
 .imgContainer {
     flex: 1;
-    height: 500px;
+    height: 400px;
     position: relative;
 }
 
@@ -44,4 +44,68 @@
     border: none;
     border-radius: 5px;
     width: max-content;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 28px;
+    }
+    .imgContainer {
+        height: 350px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 28px;
+    }
+    .imgContainer {
+        display: none;
+    }
+    .posTitle {
+        font-size: 24px;
+    }
+    .posDesc {
+        font-size: 16px;
+    }
+    .posBtn {
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .title {
+        font-size: 24px;
+    }
+    .imgContainer {
+        display: none;
+    }
+    .posTitle {
+        font-size: 20px;
+    }
+    .posDesc {
+        font-size: 12px;
+    }
+    .posBtn {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+    .imgContainer {
+        display: none;
+    }
+    .posTitle {
+        font-size: 16px;
+    }
+    .posDesc {
+        font-size: 10px;
+    }
+    .posBtn {
+        font-size: 8px;
+        padding: 8px 10px;
+    }
 }

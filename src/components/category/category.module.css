@@ -1,3 +1,79 @@
-.container {
+.title {
+    margin: 50px 0;
+    font-size: 32px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    width: 15%;
+    height: 60px;
+    justify-content: center;
+    border-radius: 10px;
+    color: var(--textColor);
+}
+
+.category.technology {
+    background-color: rgb(134, 134, 220);
+}
+.category.coding {
+    background-color: rgb(134, 204, 220);
+}
+.category.robotics {
+    background-color: rgb(220, 134, 134);
+}
+.category.travel {
+    background-color: rgb(137, 220, 134);
+}
+.category.aiml {
+    background-color: rgb(220, 219, 134);
+}
+.category.sports {
+    background-color: rgb(220, 176, 134);
+}
+
+
+.images {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+    .category {
+        width: 20%;
+    }
     
+}
+@media screen and (max-width: 1024px) {
+    .category {
+        width: 25%;
+    }
+    .title {
+        margin: 40px 0;
+        font-size: 28px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .category {
+        width: 45%;
+    }
+    .title {
+        margin: 40px 0;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .category {
+        width: 100%;
+    }
 }

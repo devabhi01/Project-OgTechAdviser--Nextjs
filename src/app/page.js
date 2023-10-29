@@ -2,7 +2,7 @@ import Featured from "@/components/featured/Featured";
 import styles from "./home.module.css"
 import Category from "@/components/category/Category";
 import Cardlist from "@/components/cardlist/Cardlist";
-import Menu from "@/components/menu/Cardlist";
+import Menu from "@/components/menu/Menu";
 
 export default function Home() {
   return (
